@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Salome Gomez",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",
