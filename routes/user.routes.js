@@ -65,7 +65,7 @@ router.get("/", verifyTokenAndAdmin, async (req, res) => {
 });
 
 
-//GET USERs STATS 
+//GET USERS STATS 
 router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
     const date = new Date();
     const lastYear = new Date(date.setFullYear(date.getFullYear() - 1));
@@ -92,7 +92,7 @@ router.get("/stats", verifyTokenAndAdmin, async (req, res) => {
     } catch (err) {
         res.status(500).json(err)
     }
-})
+});
 
 
 module.exports = router
